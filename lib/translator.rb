@@ -20,7 +20,7 @@ end
 def get_japanese_emoticon(emoticon,emoji)
   load_lib = load_library(emoticon)
   # code goes here
-  if load_lib[:get_emoticon] = emoji
+  if load_lib[:get_emoticon].include?(emoji)
     return load_lib[:get_emoticon][emoji]
   end
 end

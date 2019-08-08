@@ -29,5 +29,5 @@ end
 
 def get_english_meaning(emoticon,emoji)
   # code goes here
-  
+  load_lib = load_library(emoticon)
 end

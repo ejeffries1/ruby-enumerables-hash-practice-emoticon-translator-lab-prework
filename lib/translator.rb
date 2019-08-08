@@ -30,4 +30,7 @@ end
 def get_english_meaning(emoticon,emoji)
   # code goes here
   load_lib = load_library(emoticon)
+  if load_lib[:get_meaning].include?(emoji)
+    return load_lib[:get_meaning][emoji]
+  end
 end

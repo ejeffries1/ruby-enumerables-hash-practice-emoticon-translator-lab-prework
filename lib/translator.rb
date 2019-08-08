@@ -22,6 +22,8 @@ def get_japanese_emoticon(emoticon,emoji)
   # code goes here
   if load_lib[:get_emoticon].include?(emoji)
     return load_lib[:get_emoticon][emoji]
+  else
+    puts "Sorry that emoticon is not known"
   end
 end
 

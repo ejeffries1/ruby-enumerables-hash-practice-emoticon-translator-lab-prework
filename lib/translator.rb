@@ -22,6 +22,7 @@ def get_japanese_emoticon(emoticon,emoji)
   # code goes here
   if load_lib[:get_emoticon] = emoji
     return load_lib[:get_emoticon][emoji]
+  end
 end
 
 def get_english_meaning

@@ -20,6 +20,7 @@ end
 def get_japanese_emoticon(emoticon,emoji)
   load_lib = load_library(emoticon)
   # code goes here
+  if emoji 
 end
 
 def get_english_meaning
